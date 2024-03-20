@@ -3,7 +3,7 @@ import { challengesData } from "./main"
 
 export const HomePage = () => {
   return (
-    <div className="p-6">
+    <div className="p-6 bg-neutral-200 min-h-screen">
       <h1 className="text-4xl font-bold">Frontend Mentor Challenges</h1>
       <ul className="text-2xl mt-4">
         {
