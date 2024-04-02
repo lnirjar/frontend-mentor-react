@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        figtree: ["Figtree", "sans-serif"]
+        figtree: ["Figtree", "sans-serif"],
+        inter: ["Inter", "sans-serif"]
       }
     },
   },
