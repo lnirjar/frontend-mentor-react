@@ -8,8 +8,9 @@ export default {
     extend: {
       fontFamily: {
         figtree: ["Figtree", "sans-serif"],
-        inter: ["Inter", "sans-serif"]
-      }
+        inter: ["Inter", "sans-serif"],
+        worksans: ["Work Sans", "sans-serif"]
+      },
     },
   },
   plugins: [],

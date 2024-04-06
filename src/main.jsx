@@ -7,6 +7,7 @@ import { Layout } from './components/Layout.jsx';
 import { HomePage } from './HomePage.jsx';
 import { BlogPreviewCardPage } from './challenges/blog-preview-card/BlogPreviewCardPage.jsx';
 import { SocialLinksProfilePage } from './challenges/social-links-profile/SocialLinksProfilePage.jsx';
+import { FAQAccordionPage } from './challenges/faq-accordion/FAQAccordionPage.jsx';
 
 export const challengesData = [
   {
@@ -18,8 +19,13 @@ export const challengesData = [
     name: "Social links profile",
     path: "/social-links-profile",
     element: <SocialLinksProfilePage />
+  },
+  {
+    name: "FAQ accordion",
+    path: "/faq-accordion",
+    element: <FAQAccordionPage />
   }
-]
+];
 
 const router = createBrowserRouter([
   {
